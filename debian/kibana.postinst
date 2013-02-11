@@ -6,7 +6,6 @@ else
   set -e
 fi
 
-trap db_stop EXIT
 
 getent group kibana >/dev/null || groupadd -r kibana
 getent passwd kibana >/dev/null || \
