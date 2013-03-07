@@ -1,3 +1,9 @@
+kibana (0.2+debian0.2) wheezy; urgency=low
+
+  * Fix postinst script
+
+ -- Rudy Gevaert <Rudy.Gevaert@UGent.be>  Thu, 07 Mar 2013 17:52:49 +0100
+
 kibana (0.2+debian0.1) wheezy; urgency=low
 
   * Changed default file.  Start on boot and listen on localhost.
